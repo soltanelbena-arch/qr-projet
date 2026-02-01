@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #000000, #0a1a3a);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container {
+      text-align: center;
+      width: 100%;
+      max-width: 350px;
+      padding: 20px;
+    }
+    .logo {
+      width: 260px;
+      max-width: 90%;
+      margin-bottom: 30px;
+    }
+
+    a {
+      display: block;
+      margin: 14px 0;
+      padding: 16px;
+      text-decoration: none;
+      color: white;
+      font-size: 18px;
+      border-radius: 14px;
+      transition: transform 0.2s, opacity 0.2s;
+    }
+
+    a:hover {
+      transform: scale(1.05);
+      opacity: 0.9;
+    }
+
+    .fb { background: #1877f2; }
+    .insta { background: #e1306c; }
+    .tiktok { background: #000; }
+    .whatsapp { background: #25D366; }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <a class="fb" href="https://www.facebook.com/profile.php?id=100063785613435" target="_blank">
+      Facebook
+    </a>
+
+    <a class="insta" href="https://www.instagram.com/soltan_el_bena?igsh=ZWNyMXN5Ynk1dGFq" target="_blank">
+      Instagram
+    </a>
+
+    <a class="tiktok" href="https://www.tiktok.com/@candyskizo619?_r=1&_t=ZS-93XTPLrc67A" target="_blank">
+      TikTok
+    </a>
+
+    <a class="whatsapp" href="https://wa.me/21626 856 794" target="_blank">
+      WhatsApp
+    </a>
+
+  </div>
+
+</body>
+</html>
